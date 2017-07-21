@@ -215,6 +215,54 @@
 
 	}
 
+/* Custom */
+
+#common header {
+    background-color: #81918E;
+}
+
+#common header.first {
+    background-image: url("../../images/header1.jpg");
+}
+
+#common header.second {
+    background-image: url("../../images/header2.jpg");
+}
+
+#common header.third {
+    background-image: url("../../images/header3.jpg");
+}
+
+#content {
+    text-align: center;
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alt.header {
+    text-align: center;
+    color: #ffffff;
+}
+
+.scr {
+    margin-right: 8px;
+}
+
+.description {
+    margin-top: 32px;
+    text-align: justify;
+}
+
+.info {
+    font-weight: 600;
+}
+
+.buttons {
+    margin-top: 32px;
+}
+
+
 /* Grid */
 
 	.row {
@@ -1554,9 +1602,9 @@
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
-		font-weight: 300;
+		font-weight: 500;
 		line-height: 1.75em;
-		color: #888;
+		color: #525252;
 	}
 
 		body.is-loading * {
@@ -1623,8 +1671,8 @@
 	}
 
 	strong, b {
-		font-weight: 300;
-		color: #666;
+		font-weight: 900;
+		color: #333333;
 	}
 
 	em, i {
@@ -1947,6 +1995,7 @@
 		}
 
 			.item header h3 {
+                font-weight: 500;
 				font-size: 1em;
 			}
 
