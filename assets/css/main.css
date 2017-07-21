@@ -26,10 +26,6 @@
 		line-height: 1;
 	}
 
-	ol, ul {
-		list-style: none;
-	}
-
 	blockquote, q {
 		quotes: none;
 	}
@@ -240,6 +236,7 @@
     margin-right: auto;
 }
 
+
 .alt.header {
     text-align: center;
     color: #ffffff;
@@ -262,6 +259,16 @@
     margin-top: 32px;
 }
 
+.plain {
+    text-align:  justify;
+    font-size: 14pt;
+}
+
+ul.text_list {
+    margin-left: 60px;
+    text-align:  justify;
+    font-size: 14pt;
+}
 
 /* Grid */
 
@@ -1718,7 +1725,7 @@
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
+	p, ol, dl, table {
 		margin-bottom: 2em;
 	}
 
